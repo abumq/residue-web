@@ -1,0 +1,58 @@
+.NavMenu {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -300px;
+  background-color: rgba(17, 17, 17, 0.98);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: left 0.3s ease-out;
+  box-shadow: 10px 0px 26px -4px rgba(0,0,0,0.75);
+  user-select: none;
+  cursor: default;
+}
+
+@media screen and (max-height: 450px) {
+    .NavMenu {padding-top: 15px;}
+    .NavMenu a {font-size: 18px;}
+}
+
+.NavMenu.NavMenu__open {
+  left: 0;
+}
+
+.NavMenu .NavMenu__close-nav-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 24px;
+  border: 0;
+  color: #fff;
+  background-color: transparent;
+  outline: 0;
+  cursor: pointer;
+}
+
+.NavMenu .NavMenu__close-nav-btn:hover {
+  color: #999;
+}
+
+.NavMenu__header {
+  background-color: #333;
+  font-weight: 600;
+  padding: 10px;
+  color: #999;
+}
+
+.NavMenu__item {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.NavMenu__item:hover {
+  background-color: #444;
+}

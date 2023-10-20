@@ -1,0 +1,25 @@
+.CreateClient__client-id {
+  width: 430px;
+  max-width: 100%;
+  border: 1px solid #dfdfdf;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+textarea {
+  width: 430px;
+  height: 280px;
+  max-width: 100%;
+  font-family: monospace;
+  border: 1px solid #dfdfdf;
+}
+
+.CreateLogger__tip {
+  font-size: 0.9em;
+  color: #999;
+}
+
+.CreateLogger__accesscode-sections,
+.CreateLogger__accesscode-section {
+  display: inline-block;
+}
