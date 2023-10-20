@@ -1,10 +1,10 @@
 {
-  "name": "residue-web-ui",
+  "name": "residue-web",
   "version": "0.0.1",
   "description": "Residue web interface for client management",
   "repository": {
     "type": "git",
-    "url": "https://github.com/muflihun/residue-web-ui"
+    "url": "https://github.com/abumq/residue-web"
   },
   "private": true,
   "dependencies": {

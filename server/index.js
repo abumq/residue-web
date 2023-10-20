@@ -2,7 +2,7 @@
 const residue = require('residue');
 
 const residueParams = {
-    app: 'residue-web-ui',
+    app: 'residue-web',
     url: 'localhost:8777',
 };
 

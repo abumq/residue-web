@@ -2,7 +2,7 @@
 
 Web interface for residue is client management web UI to manage loggers and clients for the server.
 
-   [**NOTE: THIS PROJECT IS IN EARLY STAGES OF DEVELOPMENT**]
+   [**NOTE: DEVELOPMENT OF THIS PROJECT IS HALTED**]
 
    █░░░░░░░░░░░░░░░░░ 5%
 
@@ -11,7 +11,7 @@ Web interface for residue is client management web UI to manage loggers and clie
 Clone this repository:
 
 ```sh
-git clone https://github.com/muflihun/residue-web-ui.git
+git clone https://github.com/abumq/residue-web.git
 cd residue-web-ui
 ```
 
@@ -31,16 +31,16 @@ npm start
 
 Be sure to install Docker and start a Docker-machine if necessary.
 
-Let's create an image named `residue-web-ui`:
+Let's create an image named `residue-web`:
 
 ```sh
-docker build -t residue-web-ui .
+docker build -t residue-web .
 ```
 
-Finally, start a container named `residue-web-ui-instance` at port `80`.
+Finally, start a container named `residue-web` at port `80`.
 
 ```sh
-docker run -p 80:9000 --name residue-web-ui-instance residue-web-ui
+docker run -p 80:9000 --name residue-web residue-web
 ```
 
 ## Testing
